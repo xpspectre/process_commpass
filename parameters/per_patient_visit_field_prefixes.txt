@@ -1,0 +1,17 @@
+MMSURG,myeloma surgery since the last visit
+RU,did the patient have an ER visit / hospitalization
+SUPP,Supportive therapy
+D_LAB,Lab measurements
+AT,Response Assessment
+BA,Bone Assessment
+BB,Bone Biopsy
+BONE,Bone Marrow Aspirate
+ECOG,ECOG Assessment
+PN,Peripheral Neuropathy Assessment
+SE,Death
+SS,Symptoms
+ST,Soft Tissue Plasmacytoma Assessment
+D_CM,Cytogenetics
+D_IM,Flow Cytometry (?)
+D_QOL,Quality of Life
+D_TRI,Trisomies
