@@ -4,8 +4,8 @@ import person_inclusion_exclusion
 visit_cutoff = 1
 person_inclusion_exclusion.main(cutoff=visit_cutoff)
 
-import select_feature_fields
-select_feature_fields.main()
+#import select_feature_fields
+#select_feature_fields.main()
 
 import date_range
 min_date = -180
