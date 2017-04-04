@@ -1,10 +1,11 @@
-Process_CoMMpass_Data builds 2 sets of tensors.  First, it builds 3 tensors that have the dimensions person X date X feature and store the feature values.  The 3 tensors are clinical, which includes all temporal observations except medications, initial, which includes features that are only recorded once per person, and treatment, which includes all treatment data.  A note on treatment tensors: the values are binary instead of medication doses, and the dates may not be exact.  
+
+Process_CoMMpass_Data builds 2 sets of tensors.  First, it builds 3 tensors that have the dimensions person X date X feature and store the feature values.  The 3 tensors include th clinical tensor, which includes all temporal observations except medications, the intial tensor, which includes features that are only recorded once per person, and the treatment tensor, which includes all treatment data.  A note on the treatment tensor: the values are binary instead of medication doses, and the dates may not be exact (the prescribing information isn't always specific enough to get exact dates).  
 
 The second kind of tensors are the mm_seperate and the mmm_joined tensors.  These have the features aggregated together in 3-month bins and labels computed for whether a death date is recorded, what the death date is, whether a progression date is recorded, what the first progression date is, and the date of the last visit.  mm_seperate keeps initial, clinical and treatment features separate, while mm_joined puts them in the same tensor.  These may or may not be useful for you, depending on what you decide to do.
 
 Test_Data has a few simple checks for the raw feature tensors.  You can use this to check the most and least common feature of each type.
 
-To build the raw person X day X feature tensors, set the data_dir and desc_dir file paths in Process_CoMMpass_Data.ipynb to the locations of the clinical flatfiles and the clinical data dictionaries respectively.  Then run the notebook.
+To build the tensors, set the data_dir and desc_dir file paths in Process_CoMMpass_Data.ipynb to the locations of the clinical flatfiles and the clinical data dictionaries respectively.  Then run the notebook.
 
 Some of the variables you can consider playing with include: 
 file_names: the flat file names to include when deciding which fields to consider as features
