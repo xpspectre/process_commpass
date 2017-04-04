@@ -1,6 +1,0 @@
-notdone
-?
-unknown
-notrecorded
-testnotperf
-indeterminant

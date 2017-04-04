@@ -1,56 +1,65 @@
-progressivedisease: 1
-stabledisease: 2
-partialresponse: 3
-verygoodpartialresponse(vgpr): 4
-completeresponse: 5
-stringentcompleteresponse(scr): 6
-dim: 1
-notbright: 2
-2densities: 3
-twodensities: 3
-variable: 3
-bright: 4
-verybright: 5
-hypodiploid(44-45chromosomes): 2
-neardiploid(44/45to46/47chromosomes): 3
-hyperdiploid(>46/47chromosomes): 4
-hypotetraploid(neartetraploid)(>75chromosomes): 5
-reductioninsize: 1
-nochange: 2
-increaseinsize: 3
-single: 1
-multiple: 2
-grade1:asymptomatic;clinicalordiagnosticobservationsonly;interventionnotindicated: 1
-grade2:moderatesymptoms;limitinginstrumentaladl: 2
-grade3:severesymptoms;limitingselfcareadl;assistivedeviceindicated: 3
-grade1:asymptomatic;lossofdeeptendonreflexesorparathesia.: 1
-grade2:moderatesymptoms;limitinginstrumentaladl.: 2
-grade3:severesymptoms;limitingselfcareadl.: 3
-0=fullyactive: 1
-1=restrictedinphysicallystrenuousactivity: 2
-2=ambulatoryandcapableofallselfcare: 3
-3=capableofonlylimitedselfcare: 4
-4=completelydisabled: 5
-5=dead:  6
-'>3':  4
+'progressive disease': 6
+'stable disease': 5
+'partial response': 4
+'very good partial response (vgpr)': 3
+'complete response': 2
+'stringent complete response (scr)': 1
+'dim': 1
+'dim to usual': 1
+'not bright': 2
+'2 densities': 3
+'two densities': 3
+'variable': 3
+'bright': 4
+'very bright': 5
+'reduction in size': 1
+'no change': 2
+'increase in size': 3
+'single': 1
+'multiple': 2
+'grade 2: moderate symptoms; limiting instrumental adl': 2
+'grade 3:severe symptoms; limiting self care adl; assistive device indicated': 3
+'grade 1: asymptomatic; loss of deep tendon reflexes or parathesia.': 1
+'grade 1: asymptomatic; clinical or diagnostic observations only; intervention not indicated': 1
+'grade 1: asymptomatic; clinical or diagnostic observations only; intervention not indicated': 1
+'grade 2: moderate symptoms; limiting instrumental adl.': 2
+'grade 3: severe symptoms; limiting self care adl.': 3
+'0 = fully active': 1
+'1 = restricted in physically strenuous activity': 2
+'2 = ambulatory and capable of all selfcare': 3
+'3 = capable of only limited selfcare': 4
+'4 = completely disabled': 5
+'5 = dead':  6
+'> 3': 4
+'>3': 4
+'>=3': 4
 '0': 0
 '1': 1
 '2': 2
 '3': 3
 '4': 4
 '5': 5
-'6': 6
-'7': 7
-'8': 8
-'9': 9
-'10': 10
-'11': 11
-'12': 12
-'13': 13
-'14': 14
-'15': 15
-'16': 16
-'17': 17
-'18': 18
-'19': 19
-'20': 20
+'checked': 1
+'notdone': ''
+'?': ''
+'unknown': ''
+'not recorded': ''
+'test not perf': ''
+'not done': ''
+'indeterminant': ''
+'unknown/declined': ''
+'not done/unknown': ''
+'.': ''
+'notdone': ''
+'unknown': ''
+'notrecorded': ''
+'testnotperf': ''
+'indeterminant': ''
+'**': ''
+'*': ''
+'yes': 1
+'no': 0
+'unk': ''
+'single': 1
+'double': 2
+

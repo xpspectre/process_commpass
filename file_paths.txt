@@ -1,4 +1,0 @@
-data_dir:/PATH/TO/DATA/
-plot_dir:plot_dir/
-tensor_dir:tensor_dir/
-param_dir:parameters/

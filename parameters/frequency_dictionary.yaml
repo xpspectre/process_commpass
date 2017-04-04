@@ -1,6 +1,7 @@
 (1,2)-7:
   - qmondayandtuesday
   - 2xawksaturdaysandsundays
+  - qwednesdayandthursdaywithbreakfast
 (4,11)-?:
   - days4;11
   - d4;11
@@ -23,14 +24,20 @@
   - day1;8and15
   - days1;8;and15
   - d1;8;15
+  - qdd1;8and15
+  - d1;d8.d15
+  - qweeklyd1;d8;d15
+  - weeklyx3weekswhenreceivingvelcade
+  - onceaweekfor3weeks
+  - weeklyx3weeks
+  - onceaweekforthreeweeks
+  - q1weekfor3weeks
 (15,22)-28:
   - days15and22of28daycycle
 (1,11)-?:
   - days1;11
 (1,8)-0:
   - twice5/jan/15and13/jan/15
-  - onceaweekfor14day
-  - onceaweekfor14days
 (1)-21:
   - q21days
   - every21days
@@ -42,6 +49,8 @@
   - q3wk
   - every3weeks
   - q3weeksapproximately
+  - d1of21daycycle
+  - q21d
 (1,8,15)-28:
   - qweekfor3weeksona28daycycle
   - 3weeksonand1weekoff
@@ -62,22 +71,30 @@
   - day1;7;15of28daycycle3weekson;1weekrest
   - qw3wkon1wkoff
   - d1;8;15q28d
+  - qweek3weekson1weekoff
+  - weeklyqd1;d8;d151weekoff
+(1,3,5,7,9,11,13,15,17,19,21)-?:
+  - everyotherdayfor21days
+  - qodd1-21
+  - q2daysfor21days.
+  - every48hoursd1-d21
 (1,2,3,4,5)-?:
   - days1;2;3;4;5
   - days1-5
-(1,2,3,4,5,6,7,8,9,10,11)-0:
-  - qddays1to11
 (1,15,29)-42:
   - qdq1;q15;q29;q430
 (2,9,16)-?:
   - days2;9;16
+  - qdday2;day9;andday16
 (1,2,4,5)-?:
   - qd1;2;4;5
   - 1;2;4;5
 (1,2,3,4,5,6,7,8,9,10,11,12)-?:
   - qdd1-12
+  - dailyfor12days
 (1,2,3,4,5,6,7,8,9,10)-?:
   - daily1-10
+  - days1-10
 (1,2,3,4,17,18,19,20)-?:
   - days1to4;and17to20.
 (1,2,3,4,9,10,11,12,17,18,19,20)-28:
@@ -98,6 +115,9 @@
   - 3timesperweekmonday;wednesdayandfriday
   - tiw
   - monday;wednesdayandfriday3daysperweek
+  - threetimesweeklymonday-wednesday-friday
+(1,3,5)-?:
+  - bidd1-5
 (1)-0:
   - for1day
   - onedose
@@ -118,14 +138,15 @@
   - qday#1only
   - forasctcollection
   - dailyfor1day
-  - dayaftereachdoseofvelcade
   - totaldose
+  - dailyfor1day.
+  - ivover20minutes
+  - premed
+  - singledoseinpreparationforstemcelltransplant
+  - dailyx1;day-2
 (1,8,22)-?:
   - d1;d8;d22
   - qdd1;d8;d22;d22
-(1,3,5,7,9,11,13,15,17,19,21)-0:
-  - everyotherdayfor21days
-  - qodd1-21
 (1,2,3,4,25,26,27,28)-?:
   - d1-4;d25-28
 (1,2,4,5,8,9,10,11)-?:
@@ -150,11 +171,19 @@
   - q21days-off7daysq28days
   - dailydays1-21ofa28daycycle
   - qddays1-21each28daycycle
+  - 25mgpodailyx21dayfollowedby7daysoff
+  - 21dayson7daysoff
+  - days1to21ofa28daycycle
+  - weeklyx3followedby1weekrest
+  - day1-21every28days
+  - weeklyx3;3weekdon1/weekoff
+  - weeklyx3;3weekson/1weekoff
+  - 3of4weeks
+  - q3weeksonandoneweekoff
 (1,8,15,21)-?:
   - d1;d8;d15;d21
   - d1;8;15;21
-(1,7,15,21)-0:
-  - weeklyx4weeks
+  - qd1;8;15;21
 (1,4)-0:
   - q72h;2doses
   - qdd-4;d-1
@@ -182,6 +211,10 @@
   - qdd1-4;d9-12
   - day1-4andday9-12
   - d1-4;d9-12
+  - qdd1-d4yd9-12
+  - qd1-4/9-12
+  - d1;d2;d3;d4;d9;d10;d11;d12
+  - d1-4/d9-12
 (1,2)-28:
   - d1and2q28d
 (1,3,5,8,10,12)-?:
@@ -193,6 +226,7 @@
   - qdd1;d4;d8;d11
   - d1;d4;d8;d11
   - days1;4;8and11
+  - twiceaweekfor14days
 (1,2,3,4,9,10,11)-?:
   - days1-4anddays9-11
   - qdd1-4;d9-11
@@ -203,6 +237,8 @@
 (1,2,8,9,15,16)-28:
   - day1;day2ofeveryweek;3weekson;1weekoff
   - qwkx3days1;2;8;9;15;16with12sayrestq28daysx
+  - day1;2;8;9;15and16ofa28daycycle
+  - mondayandtuesdayfor3weeksthen1weekoff
 (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28)-30:
   - dailyx28days/month
 (1,4,8,11,15,18)-?:
@@ -215,13 +251,17 @@
   - d1;d2;d4;d5;d8;d9
 (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28)-0:
   - 1tabletdailyfor28days
+  - 20mgdailyontuthfor7days;8mgevery8hoursfor4weeks.
 (1)-42:
   - every042days
   - every42days
+  - q6weeks
 (1,2,8,9,15,16)-?:
   - c1d8;c1d9;c1d15;c1d16;c2d1;2;8;9;15;16
   - qdd1;d2;d8;d9;d15;d16
   - qddays1;2;8;9;15;16
+  - qdd1-2;d8-9;d15-16.firstcycleonly20mg/m^2ford1-2.
+  - qd1-2;8-9and15-16
 (1,3,6,9)-?:
   - qdd1;d3;d6;d9
 (1,8)-?:
@@ -243,12 +283,15 @@
   - days1;8
   - d1;andd8
   - d1and8
+  - onceaweekfor14day
+  - onceaweekfor14days
 (1,8,15)-42:
   - days1;8;15followedby4weeksoff
 (1)-30:
   - qmonth
   - oncemonthly
   - onceamonth
+  - monthly
 (1,8,15,22)-28:
   - d1;d8;d15;offday22
 (1,5,8,11)-?:
@@ -265,8 +308,6 @@
   - qd12;4;5;8;9;11;12
 (1,2,3,4,5)-42:
   - 6tabsdailyfor5daysq6weeks
-(1,4,8,11)-0:
-  - twiceaweekfor14days
 (1,2,8,9,22,23,29,30)-?:
   - qdd1-2;d8-9;d22-23;d29-30
   - qd1-2;8-9;22-23;29-30
@@ -275,6 +316,8 @@
   - d1-4andd8-11
   - d1-4;d8-11
   - days1;2;3;4;8;9;10;11
+  - days1-4and8-11
+  - day1-4;day8-11
 (1,2)-14:
   - qdd1;d2q2weeks
 (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28)-?:
@@ -292,16 +335,18 @@
 (1,2)-0:
   - qdayfor2days
   - x2
-  - dayofanddayafterbortezomib
-  - dayofandafterbortezoib
-  - dayofanddayaftervelcade
+  - qdondays-2and-1pretransplant
+  - days-3-2
 (1,15)-?:
   - itistakenond1;d15
   - day1;andd15
   - days1and15
   - days1andday15
   - qdd1andd15
+  - day1andday15
+  - d1;d15
 (1,2,3,4)-?:
+  - onceadayonday1;2;3;4.
   - days1-4
   - days1;2;3;4
   - d1;d2;d3;d4
@@ -310,28 +355,9 @@
   - onceaday;onlythefirst4daysofeachcicle
   - d1tod4
   - 12mgpriortochemo;4mgforfourdosesstartingonday1ofeachcycle.
-(1,3,5,7,9,11,13)-0:
-  - q48hoursx14days
-  - qodfor14days
-  - everyotherdaydays1-14
-(1,2,3,4,5,6,7,8,9,10,11,12,13,14)-0:
-  - everydayx14days
-  - at263.2mg/m2twiceadayfor14days
-  - at1.5mg/m2dailyfor1dayfor14days
-(1,8,15,22)-0:
-  - q1weekforfourweeks
-  - onceaweekfor4weeks
-  - q1weekfor4weeks
-  - thisis4thcycle;itistakenonceaweekforfourweeks.
-  - oralq1weekfor4weeks
+  - continuousinfusiondays1-4
 (1,2,3,4,5,8,9,10,11,12,15,16,17,18,19)-?:
   - qdd1-5;d8-12;d15-19
-(1,8,15)-0:
-  - onceaweekfor3weeks
-  - weeklyx3weekswhenreceivingvelcade
-  - weeklyx3weeks
-  - onceaweekforthreeweeks
-  - q1weekfor3weeks
 (1,21)-90:
   - givenq3wksthen3monthintervals.
 (4,5)-?:
@@ -340,6 +366,9 @@
   - d1;d8;d15of21daycycle
 (1,3,5,7,9,11,13)-?:
   - qoddays1-14
+  - q48hoursx14days
+  - qodfor14days
+  - everyotherdaydays1-14
 (1,8)-35:
   - day1andday8q35days
 (1,5,8,12)-?:
@@ -363,27 +392,34 @@
   - onceevery2weeks
   - every2weeks---maintenancetherapy
   - dailyfor1dayeverytwoweeks
+  - qow
 (1,2,4,5,8,9,11,12)-21:
   - qdd1;d2;d4;d5;d8;d9;d11;12of21-daycycle
   - q1;2;4;5;8;9;11;12ofeach21-daycycle
   - days1;2;4;5;8;9;11and12every21daycycle
   - d1;2;4;5;8;9;11;12q21days
-(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,42,43,44,45,46,47,48,49,50,5152,53,54,55,56)-64:
+  - days1;2;4;5;8;9;11;12ofeach21daycycle
+(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56)-64:
   - d1-28forc1;held2wks;d1-14andoff1wk.
 (1,3)-4:
   - every48hours
   - everyotherday
   - qad
   - qod
+  - revlimidrestarted25-mar-2015tiwx1week;thenqodx1week;thendaily.
 (1)-?:
   - d1
   - day1ofeachcycle
   - day1
+  - dayaftereachdoseofvelcade
+  - ondaysofcarfilzomib
 (1,4,8,11,22,25,29,32)-?:
   - d1;d4;d8;d11;d22;d25;d29;d32
   - d1;4;8;11;22;25;29;32
   - days1;4;8;11;22;25;29;32
   - qdd1;d4;d8;d11;d22;d25;d29;d32
+  - onceaday;days1;4;8;11;22;25;29;32
+  - d1;d4;d8;d11;d22;d25;d29;d32cycle1andqweekstartingcycle2
 (2,5,9,12)-?:
   - qd2;5;9;12
 (1,4,8,11,22,25,29,32)-42:
@@ -420,6 +456,17 @@
   - qd1;8;15;22
   - qweekd1;8;15;22
   - qweekd1;d8d15;d22
+  - qddays1;8;15;and22
+  - qd1;d8;d15;andd22
+  - d1;d8;d15;andd22
+  - onceadayondays1;8;15and22
+  - weeklyx4weeks
+  - onceaweekfor4weeks.
+  - q1weekforfourweeks
+  - onceaweekfor4weeks
+  - q1weekfor4weeks
+  - thisis4thcycle;itistakenonceaweekforfourweeks.
+  - oralq1weekfor4weeks
 (1)-7:
   - onday1and7for1week.
   - qwk
@@ -434,6 +481,10 @@
   - weeklywithdoseofbortezomib.
   - 8mgpo;onceaweekonmonday;beforetreatment
   - dailyfor1dayweekly
+  - onceaweekonmonday
+  - every7days
+  - take40mgperweek
+  - oncewkly
 (1,2,3,8,9,10,11,15,16,17,18)-?:
   - d1-3;8-11;15-18
 (1,4,7,10)-?:
@@ -460,6 +511,15 @@
   - qdd1-d2
   - qdd1;d2
   - qd-1;-2
+  - qd1and2andthen27mg/m2
+  - days-3;-2
+  - dailydays-1;0
+  - qdday1andday2
+  - dayofanddayafterbortezomib
+  - dayofandafterbortezoib
+  - dayofanddayaftervelcade
+  - dayofandvelcadeanddayaftervelcade
+  - 20mgbymouthondayofanddayaftervelcadetherapy
 (8,9,22,23,29,30)-?:
   - days:8;9;22;23;29;30
   - qdd8-9;d22-23;d29-30
@@ -473,6 +533,8 @@
   - qdd1-2;8-9;15-16;22-23
   - dayofanddayaftereachdoseofvelcade.day1;2;8;9;15;16;22;23
   - d1-2;8-9;15-16;22-23
+  - d1-2;d8-9;d15-16;d22-23
+  - days1-2;8-9;15-16;22-23
 (1,2,4,5,8,9,11)-21:
   - qdd1;d2;d4;d5;d8;d9;d11ofeach21-daycycle.
 (1,3,7,10)-?:
@@ -524,12 +586,19 @@
   - twiceaweek;priortovelcadedose
   - twiceaweek
   - qtwiceaweek
+  - 2xaweek
+  - weekly2daysaweek
+  - bi-weekly
 (1,3,5,7,9,11,13)-28:
   - qodnobreak14/28days
 (8,9,15,16)-?:
   - d8;d9;d15;d16
   - qddays8;9;15;16ofcycle1
   - qdd8-9;d15-16
+  - qdday8;day9;day15;andday16
+  - qdd8;d9;d15;d16
+  - d8-9;15-16
+  - days8;9;15;and16
 (1,4)-?:
   - day1andday4
   - qdd1;d4
@@ -550,8 +619,6 @@
   - wdd1;4;11;and18
   - days1;4;11;18
   - qdd1;d4;d11;d18
-(1,2,3,4,5,6,7,8,9,10,11,12)-0:
-  - dailyfor12days
 (1,2,8,9)-?:
   - d1-2;d8-9
   - qd1-2;8-9
@@ -567,6 +634,9 @@
   - dailyfor14days
   - qd1-14
   - qdd1-14
+  - everydayx14days
+  - at263.2mg/m2twiceadayfor14days
+  - at1.5mg/m2dailyfor1dayfor14days
 (1,4,8,15)-?:
   - days1;4;8;15
   - qd1;4;8;15
@@ -578,6 +648,7 @@
   - dqd1;d7;d14
 (1,15,18,22)-?:
   - qdd1;d18;d15;d22
+  - d1;18;15;22
 (1,2,3,4,8)-?:
   - days1-4andday8
 (1,15)-28:
@@ -588,10 +659,12 @@
   - d1-21
   - qddays1-21
   - itistakenfromd1tod21
+  - days1-21
+  - bidduring21days
   - for21days
   - dailyfor21days.
-  - 100mgadayfor21days.total2100mg
   - dailyfor21days
+  - 100mgadayfor21days.total2100mg
 (1)-1:
   - qd
   - 10tabsaweek
@@ -601,6 +674,9 @@
   - bid
   - daily
   - qid
+  - qdayd1-28of28daycycle
+  - qdon28daycycle
+  - qdona28daycycle
 (1,2,3,4,5,6,7)-?:
   - days1-7
 (1,2,3,8,10,12,14)-?:
@@ -616,9 +692,78 @@
   - qdd1-4;9-12;17-20
   - days1-4;9-12;17-20oncycles1and2
   - d1-4;9-12;17-20
+  - d1-4.d9-12;d17-20
   - oddcycles:d1-4;9-12and17-20;evencycles:d1-4
   - day1-4.9-12;17-20
   - days1-4;9-12and17-20
   - days1-4;9-12;17-20
+  - 1-4;9-12;17-20
 (1,5)-?:
   - d-5;d-2
+  - qd1;d5
+(1,2,15,16)-?:
+  - qdday1-day2;day15-day16
+  - qdd1-2;d15-16
+(1,4,7,10,13,16,19,22,25,28)-?:
+  - d1;4;7;10;13;16;19;22;25;28
+(1,2,3,4,7,8,9,10,13,14,15,16,19,20,21,22,25,26,27,28)-?:
+  - d1-4;7-10;13-16;19-22;25-28
+(1)-3:
+  - q72hr
+  - qdevery72hrs
+  - every3rdday
+  - everythirdday
+(1,2,3,5)-?:
+  - qdd1;d2;d3;d5
+(1,2,4,5,8,9,15)-?:
+  - days1;2;4;5;8;9;15
+(1,2,3,4,22,23,24,25)-?:
+  - qdd1-4;d22-25
+(1,5,8,12,22,26,29,33)-?:
+  - qdd1;5;8;12;22;26;29;33
+(1,2,3,4,5,6,7,8)-0:
+  - take1tabbymouthevery6hours.2dailyfor4days;then1dailyx4da
+(1,2,3,4)-8:
+  - 4daysonthen4daysoff
+(1,2,15,16)-28:
+  - 4mgondays1;2;15;16of28-daycycle
+(1,9)-?:
+  - d1;d9
+(1,3,5,15,17)-?:
+  - qd1;3;5;15;17
+(1,2,4,5,8,9,11,12,21)-?:
+  - 20mgdailyond1;d2;d4;d5;d8;d9;d11;d12andd21.
+(1,2,3,4,8,9,15,16)-?:
+  - d1-4;8;9;15;16
+(1,3)-?:
+  - forday1andday3.
+(1,3)-0:
+  - dailyonmondayandwednesdayfor7days.
+(1,8,15,21,28)-?:
+  - weeklyd1;d8;d15;d21;d28
+(1,2,8,9,14,15,21,22)-?:
+  - qdd1-2;d8-9;d14-15;d21-22
+(1,3,5,15,17,19)-?:
+  - days1;3;5;15;17;19.
+(1,5,8,12)-0:
+  - dailyonmondayandfridayfor2weeks.
+(2)-?:
+  - day-2
+(25,26,27,28)-?:
+  - d25-28
+(1,22)-?:
+  - qdd1;d22
+(1,2,3,4,5)-7:
+  - mondaytofriday5daysperweek
+(2,4)-0:
+  - dailyontuandthurfor7days.
+(1,2,3,4,5,6,7,8,9)-28:
+  - d1-4;d5-9q28d
+(1,2,3,4,9,10,11,12,13,17,18,19,20,21)-?:
+  - qdd1-4;d9-13;d17-21
+(1,3,4,5)-?:
+  - qdd1;d3;d4;d5
+(1,2,3,4)-0:
+  - -4/-3/-2/-1
+(1,2,3,4,5,6,7,8,9,10,11)-?:
+  - qddays1to11
