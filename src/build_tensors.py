@@ -219,7 +219,7 @@ def get_treatment_list(people, min_date, max_date, data_dir, param_dir):
     for treatment in cleaned_treatment_data:
         start = treatment["start"]
         cycle_ind = 0
-        date = start + treatment["pattern"][cycle_ind]
+        date = start + treatment["pattern"][cycle_ind] - 1
         last = start
         while date <= treatment["end"]:
             last = date
@@ -233,7 +233,7 @@ def get_treatment_list(people, min_date, max_date, data_dir, param_dir):
                 break
             else:
                 cycle_ind += 1
-            date = start + treatment["pattern"][cycle_ind]
+            date = start + treatment["pattern"][cycle_ind] - 1
 
         #if abs(treatment["end"] - last) > 30:
         #    print treatment
