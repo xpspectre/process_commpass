@@ -33,3 +33,11 @@ Test_Data.ipynb has a few simple checks for the raw feature tensors.  You can us
 **binarize_qol:** Binarize 4-point quality of life questions to [1,2][3,4]?
 
 **load_raw_tensors** and **load_aggregated_tensors:** Setting these to true loads the tensors after they’re created.  There is probably no reason to do this, but you can use this code to load them in other files.
+
+# Setup
+
+To get this running, have a Python 2 installation. I did this by using the latest Anaconda2, then
+```
+conda create -n commpass numpy scipy h5py jupyter pyyaml xlrd scikit-learn matplotlib
+source activate commpass
+```

@@ -1,7 +1,7 @@
 #Setup MM dataset 
 import sys,os
 sys.path.append('../dataset/')
-import load
+import loadDataset as load
 import util
 import h5py
 import numpy as np
